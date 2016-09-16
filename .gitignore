@@ -1,0 +1,7 @@
+*.pig
+*.pyc
+.idea
+htmlcov
+scripts
+*.log
+.coverage
