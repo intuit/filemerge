@@ -25,7 +25,7 @@ simply cloning the repository.
 
 .. code-block:: sh
 
-    git clone https://github.com/rohan-kekatpure/filemerge.git
+    git clone https://github.com/intuit/filemerge.git
 
 
 Note that ``filemerge`` itself does not have any dependencies besides pig
@@ -353,12 +353,4 @@ The overarching pattern here is to realize that **the unit of time for the merge
 logic is a directory**. As long as this is noted, the actual logic can be customized
 in more ways than those shown above: simply write a wrapper shell script to
 create your variables and loop over them. These variables can be months,
-input directories, output directories...
-
-============
-Contributors
-============
-
-1. Rohan Kekatpure
-2. Bradford Li
-3. Tarek Rabbani
+input directories, or output directories.
